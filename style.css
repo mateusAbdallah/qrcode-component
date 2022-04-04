@@ -1,0 +1,32 @@
+body {
+	background: lightgray;
+}
+
+.caixa {	
+	display: block;
+	margin: auto;
+	width: 30%;
+	text-align: center;
+	background-color: white;
+	border-radius: 2rem;
+	margin-top: 5rem;
+}
+
+.qrcode {
+	text-align: center;
+	border-radius: 2rem;
+	width: 50%;
+	margin-top: 3rem;
+}
+
+.titulo {
+	display: block;
+}
+
+.paragrafo-texto {
+	padding-bottom: 2rem;
+}
+.attribution {
+	margin-top: 3rem;
+	text-align: center;
+}
