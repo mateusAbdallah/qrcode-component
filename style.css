@@ -1,3 +1,8 @@
+html {
+	font-family: 'Outfit', sans-serif;
+
+}
+
 body {
 	background: lightgray;
 }
@@ -21,6 +26,7 @@ body {
 
 .titulo {
 	display: block;
+
 }
 
 .paragrafo-texto {
@@ -30,3 +36,23 @@ body {
 	margin-top: 3rem;
 	text-align: center;
 }
+
+@media screen and (min-width: 375px){
+	.caixa {
+		width: 40%;
+	}
+
+	.qrcode {
+		width: 50%;
+	}
+
+	.titulo, .paragrafo-texto, .attribution {
+		font-size: 1rem;
+	}
+
+	.attribution {
+		font-size: 1rem;
+	}
+}
+
+
