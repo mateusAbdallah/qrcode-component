@@ -37,21 +37,21 @@ body {
 	text-align: center;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 375px){
 	.caixa {
-		width: 40%;
+		width: 80%;
 	}
 
 	.qrcode {
-		width: 50%;
+		width: 70%;
 	}
 
 	.titulo, .paragrafo-texto, .attribution {
-		font-size: 1rem;
+		font-size: 0.7rem;
 	}
 
 	.attribution {
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 }
 
