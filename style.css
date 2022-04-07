@@ -10,7 +10,7 @@ body {
 .caixa {	
 	display: block;
 	margin: auto;
-	width: 30%;
+	width: 50%;
 	text-align: center;
 	background-color: white;
 	border-radius: 2rem;
@@ -37,7 +37,7 @@ body {
 	text-align: center;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 768px){
 	.caixa {
 		width: 80%;
 	}
