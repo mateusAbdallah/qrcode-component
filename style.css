@@ -37,7 +37,7 @@ body {
 	text-align: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
 	.caixa {
 		width: 80%;
 	}
